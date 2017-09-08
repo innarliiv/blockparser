@@ -95,6 +95,12 @@ static double getMem() {
     static const uint32_t gExpectedMagic = 0xbd6b0cbf;
 #endif
 
+#if defined DARKCOIN
+    static const size_t gHeaderSize = 80;
+    static auto kCoinDirName = ".dogecoin";
+    static const uint32_t gExpectedMagic = 0xc0c0c0c0;
+#endif
+
 #if defined PROTOSHARES
     static const size_t gHeaderSize = 88;
     static auto kCoinDirName = ".protoshares";

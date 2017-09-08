@@ -122,7 +122,7 @@ my($fortran) = "gfortran++";
 my(@inc) = qw(
     -I.
     -DNDEBUG
-    -DBITCOIN
+    -DDOGECOIN
     -DWANT_DENSE
     -D__STDC_FORMAT_MACROS=1
 );
@@ -130,6 +130,7 @@ my(@inc) = qw(
 #-DCLAM
 #-DPAYCON
 #-DBITCOIN
+#-DDOGECOIN
 #-DDARKCOIN
 #-DJUMBUCKS
 #-DLITECOIN
